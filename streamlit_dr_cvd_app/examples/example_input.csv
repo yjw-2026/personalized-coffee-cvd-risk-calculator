@@ -1,0 +1,6 @@
+Age.at.recruitment,TDI,Sleep.duration,BMI,Tea.intake,Sex,Education,Ethnic,Employment,Smoke,Alcohol,CVD.family.history,Hypertension,Diabetes,Dyslipidemia,CKD,Healthy.diet,Baseline.major.depression,Sleeplessness
+65,-2.29,6,32.0398718405,4.0,Female,Intermediate,White,Not working by choice,Never,Current,Yes,Yes,No,Yes,No,Yes,Yes,Usually
+56,-2.08,9,28.2071607874,0.5,Male,High,White,Not working by choice,Previous,Current,Yes,No,No,Yes,No,No,No,Never/rarely
+57,-2.26,7,24.4118480726,1.0,Female,High,White,Employed,Never,Current,Yes,No,No,Yes,No,Yes,Yes,Sometimes
+68,-2.41,6,27.9429250892,1.0,Male,Intermediate,White,Not working by choice,Previous,Current,Yes,Yes,No,Yes,No,Yes,No,Sometimes
+57,-4.31,8,19.9593554943,1.0,Female,High,White,Employed,Never,Current,No,No,No,Yes,No,Yes,No,Never/rarely

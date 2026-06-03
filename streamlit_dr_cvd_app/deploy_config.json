@@ -1,0 +1,45 @@
+{
+  "cont_vars": [
+    "Age.at.recruitment",
+    "TDI",
+    "Sleep.duration",
+    "BMI",
+    "Tea.intake"
+  ],
+  "cat_vars": [
+    "Sex",
+    "Education",
+    "Ethnic",
+    "Employment",
+    "Smoke",
+    "Alcohol",
+    "CVD.family.history",
+    "Hypertension",
+    "Diabetes",
+    "Dyslipidemia",
+    "CKD",
+    "Healthy.diet",
+    "Baseline.major.depression",
+    "Sleeplessness"
+  ],
+  "categories": {
+    "Sex": ["Male", "Female"],
+    "Education": ["Low", "Intermediate", "High"],
+    "Ethnic": ["White", "Asian", "Black", "Mixed", "Other"],
+    "Employment": ["Employed", "Not working by choice", "Unable to work", "Other"],
+    "Smoke": ["Never", "Previous", "Current"],
+    "Alcohol": ["Never", "Previous", "Current"],
+    "CVD.family.history": ["No", "Yes"],
+    "Hypertension": ["No", "Yes"],
+    "Diabetes": ["No", "Yes"],
+    "Dyslipidemia": ["No", "Yes"],
+    "CKD": ["No", "Yes"],
+    "Healthy.diet": ["No", "Yes"],
+    "Baseline.major.depression": ["No", "Yes"],
+    "Sleeplessness": ["Never/rarely", "Sometimes", "Usually"]
+  },
+  "id_col": "Participant.ID",
+  "t_col": "treat",
+  "y_col": "Event_CVD",
+  "model_output": "RD = CVD risk difference for coffee intake versus no coffee intake, estimated by a 70% training-set DR-Learner model. Negative values indicate lower predicted CVD risk under coffee intake."
+}
